@@ -1,0 +1,33 @@
+.wrapper{
+    width: 1000px;
+    background-color: purple;
+    margin: 0 auto;
+}
+
+.header,
+.footer{
+    padding: 0 10px;
+    background-color: lavender;
+    height: 120px;
+}
+
+.header h1{
+    display: inline-block;
+    width: 200px:
+}
+
+.header h4{
+    display: inline-block;
+    width: 400px;
+    margin-left: 370px;
+}
+
+.main content{
+    padding: 10px;
+}
+
+.bio-img{
+    display: inline-block;
+    width: 400px;
+    
+}

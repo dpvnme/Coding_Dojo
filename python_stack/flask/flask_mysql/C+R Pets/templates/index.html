@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+form {
+  text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>All the pets!</h2>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Type</th>
+  </tr>
+  {% for pet in all_pets %}
+  <tr>
+    <td>{{ pet['pet_id']}}</td>
+    <td>{{ pet['name'] }}</td>
+    <td>{{ pet['type'] }}</td>
+  </tr>
+  {% endfor %}
+  
+  
+</table>
+<hr>
+<h2>Add a pet</h2>
+<form action="/add_pet" method="POST">
+    <p>Name: <input type="text" name="name"></p>
+    <p>Type: <input type="text" name="type"></p>
+    
+    <input type="submit" value="Add">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+#container{
+    background-color: yellow;
+    display: inline-block;
+    /* width: 1000px;
+    height: 10000px; */
+    /* position: absolute; */
+  }
+  #box1, #box2, #box3{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+  }
+  #box1{
+    background-color: green;
+    /* position: fixed;
+    top: 40px; */
+  }
+  #box2{
+    background-color: red;
+    
+   
+  }
+  #box3{
+    background-color: blue;
+  }
+  

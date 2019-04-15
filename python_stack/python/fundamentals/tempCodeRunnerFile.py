@@ -1,0 +1,1 @@
+rint("after if",highIndex, highValue)

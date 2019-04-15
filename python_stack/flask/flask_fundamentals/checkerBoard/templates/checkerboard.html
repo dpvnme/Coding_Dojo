@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dynamic Checkerboard</title>
+    
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+
+</head>
+<body>
+    <h1>Here is your board:</h1>
+    <div class="board">
+        {% for rows in range(a_number): %}
+            
+            <div class="rows">
+                {% for box in range(a_number): %}
+                    {% if rows % 2 == 0 %}
+                        {% if box %2 == 0 %}
+                            <div class="box1"></div>
+                        {% else %}
+                            <div class="box2"></div>
+                        {% endif %}
+                    {% else %}
+                        {% if box %2 == 0 %}
+                            <div class="box2"></div>
+                        {% else %}
+                            <div class="box1"></div>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

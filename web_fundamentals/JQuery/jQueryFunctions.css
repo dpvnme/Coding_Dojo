@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid red; */
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.div{
+    width: 800px;
+    margin: 30px;
+}
+
+.text{
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+}
+
+#button1{
+    width: 80px;
+    margin: 20px;
+}
+#button2{
+    width: 80px;
+    margin: 20px;
+}
+#button3{
+    width: 80px;
+    margin: 20px;
+}
+
+#button4{
+    width: 80px;
+    margin: 20px;
+}

@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 1000px;
+    height: 1040px;
+    margin: 0 auto;
+    background-color: rgb(2, 2, 71);
+}
+.header{
+    margin: 10px;
+    padding: 30px 0px 0px 30px;
+}
+    .header h1{
+        color: white;
+        display: inline-block;
+        font-family: 'Arial Narrow';
+    }
+    .header h1 span{
+        color: rgb(84, 173, 224);
+        font-family: 'Arial Narrow';
+    }
+    .header ul{
+        display: inline-block;
+        color: white;
+        margin-left: 132px;
+    }
+        .header ul li{
+            display: inline-block;
+            margin: 0px 29px;
+        }
+    #client{
+        margin-right: 0px;
+    }
+    #home {
+        color: rgb(84, 173, 224);
+    }
+.main_body {
+    background-color: white;
+    margin: 2px 5px;
+    padding: 15px 13px 15px 15px;
+    height: 880px;        
+}
+    #main_logo{
+        width: 960px;
+        margin-bottom: 8px;
+    }
+    .porfolio{
+        width: 960px;     
+    }
+        .porfolio_column{
+            width: 301px;
+            padding: 5px 5px 15px 5px;
+            background-color: rgb(28, 92, 175);
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 12px;
+        }
+            .porfolio_column h2{
+                color: white;
+            }
+            .porfolio_column button{
+                color: white;
+                background-color: rgb(54, 187, 231);
+                height: 30px;
+                padding: 5px 20px;
+                margin: 40px 0px 0px 5px;
+                border-radius: 6px;
+                border: none;
+            }
+            .porfolio_column p{
+                color: white;
+                font-size: 13px;
+                margin-left: 5px;     
+            }
+        .wrench {
+            width: 40px;
+        }
+        .title{
+            display: inline-block;
+            vertical-align: top;
+            padding-top: 5px;
+        }
+        #special_button{
+            margin: 23px 0px 0px 5px;
+        }
+        #middle_column{
+            margin: 0px 6px 0px 1px;
+        }
+        #right_column{
+            margin-right: 0px;
+            padding-right: 0px;
+            margin-left: 6px;
+            width: 299px;
+        }
+.more_info {
+    width: 959px;
+    margin-top: 30px;   
+}
+    .the_world {
+        width: 651px;
+        display: inline-block;
+    }
+        .the_world h2{
+            font-size: 22px;
+        }
+        .pic_and_text {
+            width: 652px;
+            display: inline-block;
+            margin-top: 20px; 
+        }
+            .pic_and_text img{
+                width: 310px;
+                margin-left: 0px;
+                padding-left: 0px;
+            }
+            .learn_more {
+                width: 322px;
+                display: inline-block;
+                vertical-align: top;
+            }
+                .learn_more p{
+                    font-size: 13px;
+                    padding-left: 10px;
+                    margin-bottom: 5px;
+                }
+                .learn_more button{
+                    margin-top: 30px;
+                    margin-left: 10px;
+                    font-size: 16px;
+                    border: none;
+                    background-color: white;
+                    color: rgb(84, 173, 224);
+                }
+    .testimonial{
+        display: inline-block;
+        vertical-align: top;
+        width: 299px;
+        
+    }
+        .testimonial h2{
+            font-size: 22px;
+        }
+        .box-arrow-bottom{
+            padding-top: 20px;
+        }
+        /* Sorry, I copied this online:   */
+        .box-arrow-bottom {
+            width: 150px;
+            background-color: rgb(189, 214, 214);
+            color: #fff;
+            padding: 20px;
+            position: relative;
+            margin: 20px 0px 40px 0px;
+            width: 264px;
+        }   
+        .box-arrow-bottom:after {
+            content: " ";
+            position: absolute;
+            left: 30px;
+            bottom: -15px;
+            border-top: 15px solid rgb(189, 214, 214);
+            border-right: 15px solid transparent;
+            border-left: 15px solid transparent;
+            border-bottom: none;
+        }
+        #manager{
+            padding-top: 20px;
+        }
+.footer{
+    height:50px;
+    margin-top: 3px;
+    background-color: rgb(189, 214, 214);
+    margin: 1px 5px;
+    width: 990px;
+}
+    .footer ul{
+        text-align: center;
+    }
+    .footer ul li{
+        display: inline-block;
+        padding: 10px;
+        color: rgb(84, 173, 224);
+    }
+    #home2{
+        color: rgb(75, 91, 102);
+    }

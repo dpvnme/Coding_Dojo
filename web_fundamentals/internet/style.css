@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid green;
+    font: arial;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.top_banner{
+    height: 80px;
+}
+    .top_banner img{
+        width: 70px;
+        display: inline;
+        vertical-align: middle;
+        
+    }
+    .top_banner h1{
+        display: inline-block;
+        
+        margin-left:78px;
+    }
+    .banner p{
+        height: 50px;
+        background-color: lightblue;
+    }
+    .bottom_banner{
+        
+        height: 50px;
+    }
+    .bottom_banner h2{
+        
+    }

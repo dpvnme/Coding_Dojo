@@ -1,0 +1,255 @@
+/* *{
+    outline: 2px solid red;
+} */
+
+.top h1{
+    display: inline-block;
+    min-width: 360px;
+    padding: 5px;
+    margin: 10px;
+    /* background-color: orange; */
+    font-family: "helvetica neue", arial, verdana, sans-serif;
+      
+}
+
+.top h2{
+    display: inline-block;
+    min-width: 360px;
+    padding: 5px;
+    margin: 10px;
+    /* background-color: teal;    */
+}
+
+.container{
+    background-color: gray;
+    width: 800px;
+    /* min-height: 900px; */
+    margin: 0px auto;
+}
+
+div.top{
+    background-color: lightgray;
+}
+
+div.bottom{
+    background-color: rgb(66, 45, 66);
+    vertical-align: top;
+}
+
+div.image{
+    display: inline-block;
+    width: 330px;
+    height: 218px;
+    background-color: rgb(91, 91, 105);
+    margin: 15px 5px 10px 15px; 
+    border: solid 5px grey
+}
+
+div.image img{
+    max-width: 100%;
+    /* max-height: 100%; */
+}
+
+div.about{
+    display: inline-block;
+    width: 422px;
+    height: 218px;
+    background-color: lightgray;
+    margin: 15px auto;
+    vertical-align: top;
+    padding-bottom: 10px;
+}
+
+div.about h1{
+    background-color: gray;
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+    padding: 5px 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.about p{
+    text-align: left;
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+
+div.lamode, div.family, div.five{
+    display: inline-block;
+    width: 241px;
+    height: 600px;
+    background-color: lightgray;
+    margin: 5px 5px 10px 15px; 
+    vertical-align: top;
+
+}
+
+div.lamode h1{
+    background-color: gray;
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+    padding: 5px 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.lamode img{
+     width: 241px;
+}
+
+div.lamode p{
+    text-align: justify;
+    padding: 8px;
+    font-size: 15px;     
+}
+
+div.lamode h2{
+    background-color: gray;
+    margin-top: 84px;
+    color: white;
+    font-size: 20px;
+    padding: 5px 8px;
+    
+}
+
+div.lamode div.row1 img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 7px;
+    margin-top: 0px;
+}
+
+div.lamode div.row2 img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0px 7px;
+}
+
+div.lamode input{
+    background-color: green;
+    color: white;
+    margin: 14px 0px 0px 87px;
+    border-radius: 10px;
+    padding: 6px 6px;
+}
+
+div.family h1{
+    background-color: gray;
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+    padding: 5px 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.family img{
+    width: 241px;
+}
+
+div.family p{
+    text-align: justify;
+    padding: 8px;
+    font-size: 15px;
+}
+
+div.family h2{
+    background-color: gray;
+    margin-top: 49px;
+    color: white;
+    font-size: 20px;
+    padding: 5px 8px;
+}
+
+div.family div.row1 img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0px 7px;
+}
+
+div.family div.row2 img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 7px;
+    margin-top: 0px;
+}
+
+div.family input{
+    background-color: green;
+    color: white;
+    margin: 14px 0px 0px 72px;
+    border-radius: 10px;
+    padding: 6px 6px;   
+}
+
+div.five h1{
+    background-color: gray;
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+    padding: 5px 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.five img{
+    width: 241px;
+}
+
+div.five p{
+    text-align: justify;
+    padding: 8px;
+    font-size: 15px;
+}
+
+div.five h2{
+    background-color: gray;
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+    padding: 5px 8px;
+}
+
+div.five div.row1 img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0px 7px;
+    margin-top:16px;
+}
+
+div.five div.row2 img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 7px;
+    margin-top: 0px;
+}
+
+div.five input{
+    background-color: green;
+    color: white;
+    margin: 14px 0px 0px 72px;
+    border-radius: 10px;
+    padding: 6px 6px;   
+}
+
+div.footer p{
+    height: 30px;
+    text-align: center;
+    margin: 4px 0px;
+}
+
+div.footer div.social{
+    display: inline-block;
+    margin-left: 500px;
+}
+
+div.footer div.social img{
+    width: 18px;
+    height: 18px;
+}
